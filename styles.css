@@ -62,3 +62,21 @@ footer {
   font-style: italic;
   margin: 20px;
 }
+
+@media (max-width: 1000px) {
+  main {
+    width: 90%;
+    margin: 5px auto;
+  }
+  .title-block .title-image {
+    width: 300px;
+    height: auto;
+  }
+  .description {
+    width: 80%;
+  }
+
+  iframe {
+    width: 90%;
+  }
+}
