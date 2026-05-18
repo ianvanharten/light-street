@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Light Street Church is a Jesus-centered community in Woodstock, Ontario. We meet in homes for meals, discussions, and worship."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Light Street Church - Woodstock, Ontario</title>
+  </head>
+  <body>
+    <main>
+      <div class="title-block">
+        <img
+          class="title-image"
+          src="images/Light St. Church_cropped.png"
+          alt="Light Street Church - Woodstock, Ontario"
+          title="Light Street Church - Woodstock, Ontario"
+        />
+
+        <p class="subtitle">Seeking to live a Jesus-centered life together.</p>
+      </div>
+
+      <p class="description">
+        Light Street Church is a small group of Jesus followers based in Woodstock, Ontario, Canada. <br />
+        We meet in each other's homes sharing meals, stories, discussion, prayer, and music.
+      </p>
+
+      <p class="description">
+        If you're interested in connecting or curious to hear more, feel free to reach out: <br />
+        <span class="email">contact@email.com</span>
+      </p>
+
+      <p class="calendar-title">Calendar</p>
+
+      <iframe
+        src="https://calendar.google.com/calendar/embed?src=9142568dd4e77320ce2b0037da55453dc7e424ef826d001280aed9fe9ca634c6%40group.calendar.google.com&ctz=America%2FToronto&mode=AGENDA"
+        style="border: 0"
+        width="800"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+    </main>
+
+    <footer>Light Street Church © <span class="year"></span></footer>
+
+    <script>
+      document.querySelector('.year').innerHTML = new Date().getFullYear()
+    </script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Special+Elite&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+main {
+  width: 80%;
+  margin: 25px auto;
+}
+
+.title-block {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title-block .title-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-family: 'Special Elite', Courier, monospace;
+  text-align: center;
+  font-size: 20px;
+}
+
+.description {
+  width: 30%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.email {
+  font-style: italic;
+  color: rgb(87, 87, 255);
+}
+
+.calendar-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: -25px;
+}
+
+iframe {
+  display: block;
+  margin: 30px auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  margin: 20px;
+}
