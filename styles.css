@@ -17,6 +17,10 @@ main {
   margin: 25px auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 .title-block {
   width: 100%;
   margin: 0 auto;
@@ -39,7 +43,7 @@ main {
   text-align: center;
 }
 
-.email {
+.link {
   font-style: italic;
   color: rgb(87, 87, 255);
 }
